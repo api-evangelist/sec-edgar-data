@@ -1,0 +1,32 @@
+aid: sec-edgar-data
+name: SEC EDGAR Data
+description: "API to access annual reports of public US companies"
+url: https://www.sec.gov/edgar/sec-api-documentation
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Finance"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Finance
+  - Public APIs
+apis:
+  - name: SEC EDGAR Data
+    description: "API to access annual reports of public US companies"
+    humanURL: https://www.sec.gov/edgar/sec-api-documentation
+    baseURL: https://www.sec.gov/edgar/sec-api-documentation
+    tags:
+      - Finance
+    properties:
+      - type: Documentation
+        url: https://www.sec.gov/edgar/sec-api-documentation
+common:
+  - type: Website
+    url: https://www.sec.gov/edgar/sec-api-documentation
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
