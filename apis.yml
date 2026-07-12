@@ -23,10 +23,14 @@ apis:
       - type: Documentation
         url: https://www.sec.gov/edgar/sec-api-documentation
 common:
+  - type: DomainSecurity
+    url: security/sec-edgar-data-domain-security.yml
   - type: Website
     url: https://www.sec.gov/edgar/sec-api-documentation
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - type: Blog
+    url: https://www.sec.gov/news/pressreleases.rss
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
