@@ -39,7 +39,6 @@ apis:
   - name: SEC EDGAR Data
     description: "API to access annual reports of public US companies"
     humanURL: https://www.sec.gov/edgar/sec-api-documentation
-    baseURL: https://www.sec.gov/edgar/sec-api-documentation
     tags:
       - Finance
     properties:
